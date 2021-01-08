@@ -1,0 +1,61 @@
+li {
+    list-style: none;
+}
+
+/*li:before {
+    background-image: url('http://image.flaticon.com/icons/png/512/253/253551.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: inline-block;
+    width: 25px; 
+    height: 20px;
+    content:"";
+
+}*/
+
+
+li:first-child a:visited{
+    color: green;
+}
+li:first-child a:active{
+    color: green;
+}
+li:nth-child(even){
+    font-size: 20px;
+}
+li:nth-child(odd){
+    font-size: 18px;
+}
+li:nth-child(3n+1){
+    background: yellow;
+}
+
+a {
+    text-decoration: none 
+}
+
+a:hover{
+    background: turquoise;
+}
+li::before{
+    content: "-";
+}
+
+#greycol {
+    color: grey;
+}
+div p { 
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+p:nth-child(3n-1){
+    color:green;
+}
+h3:nth-child(even){
+    color:pink;
+}
+
